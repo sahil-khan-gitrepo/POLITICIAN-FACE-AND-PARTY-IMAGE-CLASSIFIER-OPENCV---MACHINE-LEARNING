@@ -21,13 +21,11 @@ The project involves:
     - Evaluation
 5. [Installation Instructions](#installation-instructions)
 6. [Results](#results)
-7. [Future Work](#future-work)
-8. [Contributors](#contributors)
 
 ## Project Motivation
-Political party identification is crucial in the realm of media analysis and voter education. Automated systems that can recognize politicians and their political affiliations have potential applications in journalism, social media analysis, and public discourse monitoring.
+Political party identification is crucial in media analysis and voter education. Automated systems that recognize politicians and their political affiliations help the voter know which party a particular leader belongs to. The project has potential applications in journalism, social media analysis, and public discourse monitoring.
 
-In this project, we focus on developing a model that automatically detects faces of politicians from images, extracts meaningful features, and predicts their party affiliation with high accuracy. The project serves as an example of how machine learning and computer vision can be applied to real-world problems.
+In this project, we focus on developing a model that automatically detects faces of politicians from images, extracts meaningful features, and predicts their party affiliation with high accuracy. The project serves as an example of how machine learning can be applied to face detection.
 
 ## Dataset
 The dataset used in this project consists of:
@@ -48,9 +46,7 @@ Each image contains the face of a politician, and the task is to detect the face
 ## Project Workflow
 
 ### 1. Data Preprocessing
-- Collected images of politicians and labeled them with their corresponding party affiliations.
-- Resized all images to a uniform size for consistency.
-- Normalized pixel values to improve model performance.
+- Collected images of politicians and labeled them with their corresponding party affiliations by storing them in their respective folders.
   
 ### 2. Face Detection
 - Used **OpenCV's Haar Cascade** classifier to detect faces in the politician images.
@@ -107,15 +103,4 @@ Each image contains the face of a politician, and the task is to detect the face
 | Random Forest     | 88%      |
 | Logistic Regression | 84%    |
 
-## Future Work
-- **Dataset Expansion**: Collect more diverse politician images from different countries and regions.
-- **Improvement in Accuracy**: Explore deep learning methods like **Convolutional Neural Networks (CNNs)** for better feature extraction and classification.
-- **Real-time Deployment**: Integrate the model into a real-time video or streaming platform to predict party affiliation from live feeds.
 
-## Contributors
-- [Your Name](https://github.com/yourusername) - Project Lead and Developer
-- Open for contributions from others. Feel free to submit pull requests and help improve the model!
-
----
-
-If you have any questions or suggestions, feel free to raise an issue or contact us directly via GitHub. Happy coding!

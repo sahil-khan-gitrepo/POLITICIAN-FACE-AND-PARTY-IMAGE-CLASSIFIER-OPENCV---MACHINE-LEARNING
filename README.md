@@ -19,8 +19,7 @@ The project involves:
     - Feature Extraction
     - Model Training
     - Evaluation
-5. [Installation Instructions](#installation-instructions)
-6. [Results](#results)
+5. [Results](#results)
 
 ## Project Motivation
 Political party identification is crucial in media analysis and voter education. Automated systems that recognize politicians and their political affiliations help the voter know which party a particular leader belongs to. The project has potential applications in journalism, social media analysis, and public discourse monitoring.
@@ -67,28 +66,6 @@ Each image contains the face of a politician, and the task is to detect the face
 ### 5. Evaluation
 - Evaluated the model using metrics such as **accuracy**, **precision**, **recall**, and **F1-score**.
 - The Random Forest classifier achieved the best accuracy of **88%** on the test dataset, indicating that the model could correctly predict the political party of a politician with high confidence.
-
-## Installation Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/politician-face-party-classifier.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd politician-face-party-classifier
-   ```
-
-3. Install required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the face detection and classification pipeline:
-   ```bash
-   python classify_politicians.py
-   ```
 
 ## Results
 - The project achieved an **88% accuracy** on test data, with SVM, Random Forest, and Logistic Regression models being trained.
